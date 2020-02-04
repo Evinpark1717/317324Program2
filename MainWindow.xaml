@@ -1,0 +1,18 @@
+﻿<Window x:Class="_317324Program2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_317324Program2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label x:Name="lblwrite" Content="What's Your Name?" FontSize="15" />
+        <TextBox x:Name="txtBName"   FontSize="20" BorderBrush="Black" BorderThickness="3" TextChanged="txtBName_TextChanged"/>
+        <Button x:Name="btnGreeting" Content="Click To Say Hello" FontSize="20"
+        Click="Button_Click" />
+
+        <Label x:Name="lblGreeting" />
+    
+    </StackPanel>
+</Window>
